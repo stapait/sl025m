@@ -1,0 +1,9 @@
+Arduino implementation of Mifare module SL025M from http://stronglink.cn/english/sl025M.htm.
+
+Implemented methods:
+
+readTagInfo: reads tag serial number
+
+loginToSector: login to a sector for allowing access
+
+readDatablock: read data from a sector
